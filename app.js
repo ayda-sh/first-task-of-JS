@@ -45,3 +45,19 @@ function inRange(min, num, max) {
 console.log(inRange(30, 500, 95))
 
 
+// 4 - Create a function that calculates Body Mass Index (BMI) and....
+
+function bmi(w, h) {
+    const bmi = w / (h ** 2) * 10000;
+    if (bmi <= 18.5) {
+        console.log("Underweight");
+    } else if (bmi > 18.5 && bmi < 24.9) {
+        console.log("NormalWeight");
+    } else if (bmi > 25.0 && bmi < 29.9) {
+        console.log("OverWeight");
+    } else {
+        console.log("Obesity");
+    }
+}
+
+bmi(57, 165)
