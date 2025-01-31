@@ -61,3 +61,18 @@ function bmi(w, h) {
 }
 
 bmi(57, 165)
+
+
+
+// 5 - Create a function that checks if a year is a leap year
+
+function leapYear(y) {
+    if (y % 4 === 0 && y % 100 !== 0 || y % 400 === 0) {
+        console.log("Its a leap year");
+    } else {
+        console.log("Not a leap year");
+    }
+}
+
+leapYear(2022)
+
