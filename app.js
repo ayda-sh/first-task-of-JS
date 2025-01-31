@@ -1,4 +1,4 @@
-// 1 Create a function that checks if a number is prime. 
+// 1 - Create a function that checks if a number is prime. 
 
 let i = 2;
 function prime(num) {
@@ -17,7 +17,7 @@ prime(5)
 
 
 
-// 2 Create a function that converts time from 24-hour format to 12-hour format
+// 2 - Create a function that converts time from 24-hour format to 12-hour format
 
 function to12Hour(h) {
     if(h < 0 || h > 24) {
@@ -31,5 +31,17 @@ function to12Hour(h) {
 
 to12Hour(13)
 
-// 3 Write a function that checks if a number is within a specified range. 
+
+// 3 - Write a function that checks if a number is within a specified range. 
+
+function inRange(min, num, max) {
+    if( num > min && num < max) {
+        console.log("Number is in the specified range");
+    } else {
+        console.log("Number is not in the specified range");
+    }
+}
+
+console.log(inRange(30, 500, 95))
+
 
