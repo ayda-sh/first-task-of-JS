@@ -76,3 +76,13 @@ function leapYear(y) {
 
 leapYear(2022)
 
+
+
+// 8 - Create a function that reverses a given string.
+
+const hello = "hello"
+function toReverse(content) {
+    console.log(content.split('').reverse().join(''));
+}
+
+toReverse(hello)
